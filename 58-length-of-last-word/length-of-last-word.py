@@ -1,3 +1,6 @@
+# Multiple approaches are possible for this simple problem so this is the one that I wrote myself but the solution that sir gave was way 
+# much optimized that the one I wrote
+
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.strip()
