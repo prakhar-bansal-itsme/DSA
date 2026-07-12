@@ -9,7 +9,7 @@ class Solution:
             return head
 
         curr = head
-        while curr != None and curr.next != None:
+        while curr.next != None:
             if curr.next.val == curr.val:
                 curr.next = curr.next.next
             else:
